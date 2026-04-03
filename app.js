@@ -15,6 +15,4 @@ form.addEventListener("submit", (event) => {
 
   resultContent.textContent = JSON.stringify(studentInfo, null, 2);
   result.hidden = false;
-
-  form.reset();
 });
